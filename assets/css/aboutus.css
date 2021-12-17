@@ -1,0 +1,187 @@
+.contactsus .entry-content {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.wrapper-inner {
+    padding: 10px 0;
+}
+
+.wrapper-inner h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.wrapper-inner h5 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.wrapper-inner p {
+    font-size: 0.9rem;
+
+}
+
+.item-boxed-service {
+    display: inline-block;
+    margin: 0 0 40px 0;
+    border-color: #dedede;
+    border: 1px solid rgba(217, 217, 217, 0.4);
+    padding: 36px 32px;
+    width: 100%;
+    text-align: left;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.item-boxed-service:hover {
+    background-color: #dedede;
+    background: rgba(217, 217, 217, 0.15);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.item-boxed-service h4 {
+    color: #32373e;
+    font-size: 22px;
+    line-height: 1;
+    min-height: 74px;
+    margin: 7px 0 0;
+}
+
+.item-boxed-service span {
+    margin-bottom: 8px;
+    display: inline-block;
+    width: 100%;
+    color: #a8a39e;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.item-boxed-service a {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: var(--primary-color);
+}
+
+.item-boxed-service a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+/* events */
+.events-section {
+    margin: 2rem 0;
+}
+
+.title-subtitle {
+    margin-bottom: 35px;
+}
+
+.item-event {
+    background: #fff;
+    border: solid #dedede 1px;
+    margin-bottom: 50px;
+    overflow: auto;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.item-event .event-icon {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 25px;
+
+    color: #fff;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+.item-event .event-icon i {
+    font-size: 4rem;
+    display: block;
+    opacity: 0.4;
+    position: relative;
+}
+
+.item-event .event-icon .date-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    margin-top: -42px;
+}
+
+.item-event .event-icon .date-month {
+    margin-top: 20px;
+    opacity: 0.6;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    display: block;
+}
+
+.item-event:hover {
+    background-color: #dedede;
+    background: rgba(217, 217, 217, 0.15);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.item-event .event-info {
+    float: right;
+    width: 75%;
+    padding: 28px;
+    padding-left: 5%;
+    min-height: 60px;
+}
+
+.item-event .event-info h4 a {
+    font-size: 1.125rem;
+    color: var(--primary-color);
+
+}
+
+.item-event .event-info h4 a:hover {
+    text-decoration: none;
+
+}
+
+.item-event .event-info h5 {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.item-event .event-info span {
+    text-transform: uppercase;
+    color: #a8a39e;
+    font-size: 0.95rem;
+    line-height: 1.9;
+    font-weight: 300;
+}
+
+
+
+/* mission-section */
+.mission-section {
+    margin: 1rem 0;
+}
+
+.mission-section .missons-inner {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+
+.mission-section .missons-inner .title h5 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.mission-section .missons-inner .title h5 span {
+    color: var(--primary-color);
+}

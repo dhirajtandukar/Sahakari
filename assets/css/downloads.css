@@ -1,0 +1,43 @@
+.downloads-section {
+    margin: 1rem 0;
+}
+
+.downloads-section .title {
+    padding: 10px;
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.downloads-section .forms li {
+    list-style: lower-roman;
+    margin: 5px 0 5px 20px;
+
+}
+
+.downloads-section .forms li a {
+    color: #a8a39e;
+    float: right;
+    padding-right: 10px;
+
+}
+
+.downloads-section .forms li a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 425px) {
+
+    .downloads-section .title h5 {
+        font-size: 1rem;
+    }
+
+    .downloads-section .forms li {
+
+        font-size: 12px;
+    }
+}

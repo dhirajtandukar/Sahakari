@@ -1,0 +1,37 @@
+.carrer-section .title h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 3rem 0;
+    color: var(--primary-color);
+}
+
+.box {
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 1em 1em;
+    margin: 2em 0;
+    text-align: left;
+}
+
+.carrer-btn {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid var(--primary-color);
+}
+
+.carrer-btn:hover {
+    background: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.function {
+    font-style: italic;
+}

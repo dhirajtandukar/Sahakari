@@ -1,0 +1,92 @@
+.widget {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.widget-inner {
+    margin-bottom: 15px;
+}
+
+.widget-inner .widget-title {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.widget-inner .widget-title-2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.widget-inner .widget-title:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background: var(--secondary-color);
+    width: 28%;
+    bottom: -20%;
+    left: 0;
+
+}
+
+.widget-inner ul {
+    border-bottom: 1px solid #ccc;
+}
+
+.widget-inner ul li {
+    list-style: none;
+    font-size: 14px;
+    /* color: #a8a39e; */
+}
+
+.widget-inner ul li span {
+    color: #000;
+    font-weight: bold;
+}
+
+.widget .input-group .form-outline {
+    display: flex;
+}
+
+.widget .input-group input {
+    width: 80%;
+}
+
+.widget .input-group button {
+    margin-left: 5px;
+}
+
+.widget-inner a {
+    color: #000;
+}
+
+.widget-inner .input-group .form-outline {
+    align-items: center;
+}
+
+.widget-inner .button i {
+    padding-left: 10px;
+}
+
+.widget-inner a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.widget-inner ul li i {
+    color: var(--primary-color);
+    font-size: 17px;
+}
+
+
+.widget-inner .mail {
+    margin-top: 7px;
+}
+
+.widget-inner .mail span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
